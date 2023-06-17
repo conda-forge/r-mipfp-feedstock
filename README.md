@@ -1,11 +1,11 @@
-About r-mipfp
-=============
+About r-mipfp-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mipfp-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jojo-/mipfp
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mipfp-feedstock/blob/main/LICENSE.txt)
 
 Summary: An implementation of the iterative proportional fitting (IPFP), maximum likelihood, minimum chi-square and weighted least squares procedures for updating a N-dimensional array with respect to given target marginal distributions (which, in turn can be multidimensional). The package also provides an application of the IPFP to simulate multivariate Bernoulli distributions.
 

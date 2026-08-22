@@ -1,4 +1,4 @@
-{% set version = '3.2.1' %}
+{% set version = "3.2.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mipfp_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mipfp/mipfp_{{ version }}.tar.gz
-  sha256: 46b1328795d6fea3b87ade5d432346824b8442124b9a75b96f45ee80defdaabf
+  sha256: 2a17f5256581916ebb553ca9c12ea0f532deb542a2d938d5cf4f80789fda8cc0
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -42,11 +42,8 @@ about:
   home: https://github.com/jojo-/mipfp
   license: GPL-2.0-only
 
-  summary: An implementation of the iterative proportional fitting (IPFP), maximum likelihood,
-    minimum chi-square and weighted least squares procedures for updating a N-dimensional
-    array with respect to given target marginal distributions (which, in turn can be
-    multidimensional). The package also provides an application of the IPFP to simulate
-    multivariate Bernoulli distributions.
+  summary: An implementation of the iterative proportional fitting (IPFP), maximum likelihood, minimum chi-square and weighted least squares procedures for updating a N-dimensional array with respect to given target marginal distributions (which, in turn can be multidimensional). The package also provides an 
+    application of the IPFP to simulate multivariate Bernoulli distributions.
   license_family: GPL2
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
